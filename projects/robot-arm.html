@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3-DOF Robotic Arm · Arjun's Maker Portfolio</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container">
+      <a class="brand" href="../index.html">makerspace<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Projects</a></li>
+        <li><a href="../timeline.html">Timeline</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="project-hero">
+    <div class="container">
+      <div class="date">November 2025</div>
+      <h1>3-DOF Robotic Arm</h1>
+      <p class="tagline">A servo-actuated arm controlled by inverse kinematics running on a Raspberry Pi.</p>
+    </div>
+  </header>
+
+  <main class="container project-body">
+
+    <div class="media-block">
+      <img src="../assets/images/robot-arm-hero.jpg" alt="Robotic arm prototype on a workbench">
+    </div>
+
+    <dl class="meta-table">
+      <dt>Timeframe</dt><dd>September 2025 – November 2025</dd>
+      <dt>Tools used</dt><dd>Raspberry Pi, MG996R servos, Python, Fusion 360, laser-cut acrylic</dd>
+      <dt>Category</dt><dd>Robotics, Software</dd>
+    </dl>
+
+    <h2>The problem</h2>
+    <p>
+      I wanted to understand how industrial pick-and-place arms calculate joint angles from a
+      target position, so I built a small-scale version I could program and test by hand.
+    </p>
+
+    <h2>How it works</h2>
+    <p>
+      Three servos form shoulder, elbow, and wrist joints. A Python script running on a
+      Raspberry Pi solves the inverse kinematics for a given (x, y, z) target and converts the
+      result into servo angles over a serial connection.
+    </p>
+
+    <h2>Build process</h2>
+    <ul>
+      <li>Laser-cut and assembled the acrylic arm segments and joints.</li>
+      <li>Derived the inverse kinematics equations for the 3-link arm on paper first.</li>
+      <li>Implemented and unit-tested the IK solver in Python before wiring any hardware.</li>
+      <li>Calibrated servo angle offsets to correct for physical assembly slop.</li>
+    </ul>
+
+    <h2>Results</h2>
+    <p>
+      The arm can reliably pick up a small object and move it to a target coordinate within
+      about 1cm of accuracy across its working envelope.
+    </p>
+
+    <h2>What I'd do differently</h2>
+    <p>
+      Upgrade from hobby servos to ones with position feedback — the biggest source of error
+      is servos not quite reaching the commanded angle under load.
+    </p>
+
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="../assets/images/robot-arm-1.jpg" alt="Laser-cutting the arm segments">
+      <img src="../assets/images/robot-arm-2.jpg" alt="Wiring the servo controller">
+      <img src="../assets/images/robot-arm-3.jpg" alt="Arm picking up a small block">
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      Built by Arjun &middot; <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+</body>
+</html>

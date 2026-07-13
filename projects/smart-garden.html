@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Self-Watering Smart Garden · Arjun's Maker Portfolio</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container">
+      <a class="brand" href="../index.html">makerspace<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Projects</a></li>
+        <li><a href="../timeline.html">Timeline</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="project-hero">
+    <div class="container">
+      <div class="date">June 2025</div>
+      <h1>Self-Watering Smart Garden</h1>
+      <p class="tagline">A soil-sensing irrigation box that waters itself and logs data to a web dashboard.</p>
+    </div>
+  </header>
+
+  <main class="container project-body">
+
+    <div class="media-block">
+      <img src="../assets/images/smart-garden-hero.jpg" alt="Smart garden planter box">
+    </div>
+
+    <dl class="meta-table">
+      <dt>Timeframe</dt><dd>April 2025 – June 2025</dd>
+      <dt>Tools used</dt><dd>ESP32, capacitive soil sensors, water pump, plywood, Node.js dashboard</dd>
+      <dt>Category</dt><dd>IoT, Woodworking, Web Dev</dd>
+    </dl>
+
+    <h2>The problem</h2>
+    <p>
+      My family's herb garden kept dying whenever we went on vacation, so I built a planter
+      box that waters itself and lets us check soil moisture remotely.
+    </p>
+
+    <h2>How it works</h2>
+    <p>
+      A capacitive soil moisture sensor reports readings to an ESP32 every 15 minutes. When
+      moisture drops below a threshold, the ESP32 triggers a small water pump for a timed
+      burst and logs the event to a simple Node.js dashboard over Wi-Fi.
+    </p>
+
+    <h2>Build process</h2>
+    <ul>
+      <li>Built and sealed the plywood planter box with a separate reservoir compartment.</li>
+      <li>Wired the sensor, pump, and relay to the ESP32 and wrote the control firmware.</li>
+      <li>Built a small Node.js + SQLite backend to log and chart moisture over time.</li>
+      <li>Ran a 3-week trial and tuned the watering threshold based on the plant's response.</li>
+    </ul>
+
+    <h2>Results</h2>
+    <p>
+      The herbs survived a two-week vacation for the first time, and the moisture logs made it
+      easy to see when the watering threshold needed adjusting for different plants.
+    </p>
+
+    <h2>What I'd do differently</h2>
+    <p>
+      Add a second sensor at a different depth — the surface sensor sometimes read "dry"
+      right after watering even though the root zone was still saturated.
+    </p>
+
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="../assets/images/smart-garden-1.jpg" alt="Building the plywood planter box">
+      <img src="../assets/images/smart-garden-2.jpg" alt="Wiring the ESP32 and pump">
+      <img src="../assets/images/smart-garden-3.jpg" alt="Moisture dashboard screenshot">
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      Built by Arjun &middot; <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+</body>
+</html>

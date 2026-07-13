@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeline · Arjun's Maker Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container">
+      <a class="brand" href="index.html">makerspace<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Projects</a></li>
+        <li><a href="timeline.html" class="active">Timeline</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Project Timeline</h1>
+      <p>How my projects have progressed over time, oldest to newest.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="timeline" id="timeline"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      Built by Arjun &middot; <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="data/projects.js"></script>
+  <script src="js/main.js"></script>
+  <script>renderTimeline("timeline");</script>
+</body>
+</html>

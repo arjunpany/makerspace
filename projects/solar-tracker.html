@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dual-Axis Solar Tracker · Arjun's Maker Portfolio</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container">
+      <a class="brand" href="../index.html">makerspace<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Projects</a></li>
+        <li><a href="../timeline.html">Timeline</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="project-hero">
+    <div class="container">
+      <div class="date">April 2026</div>
+      <h1>Dual-Axis Solar Tracker</h1>
+      <p class="tagline">An Arduino-driven mount that follows the sun on two axes to boost panel output by roughly 30% over a fixed mount.</p>
+    </div>
+  </header>
+
+  <main class="container project-body">
+
+    <!-- Swap this for a real photo or video. For video, replace the <img> with a
+         YouTube/Vimeo <iframe> embed (unlisted links work great and keep the repo small). -->
+    <div class="media-block">
+      <img src="../assets/images/solar-tracker-hero.jpg" alt="Solar tracker prototype outdoors">
+    </div>
+
+    <!-- Example video embed (uncomment and replace VIDEO_ID once uploaded):
+    <div class="media-block video">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Solar Tracker demo" allowfullscreen></iframe>
+    </div>
+    -->
+
+    <dl class="meta-table">
+      <dt>Timeframe</dt><dd>March 2026 – April 2026</dd>
+      <dt>Tools used</dt><dd>Arduino Uno, LDR sensors, servo motors, 3D-printed mount, Fusion 360</dd>
+      <dt>Category</dt><dd>Electronics, 3D Printing</dd>
+    </dl>
+
+    <h2>The problem</h2>
+    <p>
+      Fixed solar panels lose a significant amount of potential output because they only face
+      the sun directly for a moment each day. I wanted to test how much a simple tracking
+      mount could improve real-world output using cheap, off-the-shelf parts.
+    </p>
+
+    <h2>How it works</h2>
+    <p>
+      Four light-dependent resistors (LDRs) are arranged in a cross pattern behind a divider.
+      An Arduino compares the light readings from each pair and drives two servos — one for
+      tilt, one for pan — to rotate the panel toward the strongest light source. The frame and
+      gearing were designed in Fusion 360 and 3D-printed in PETG for outdoor durability.
+    </p>
+
+    <h2>Build process</h2>
+    <ul>
+      <li>Prototyped the LDR sensor logic on a breadboard and tested response curves indoors.</li>
+      <li>Designed and iterated the two-axis gimbal mount in CAD (three print revisions).</li>
+      <li>Wrote the Arduino control loop with dead-zone smoothing to stop servo jitter.</li>
+      <li>Ran a 5-day side-by-side test against a fixed panel, logging voltage every 10 minutes.</li>
+    </ul>
+
+    <h2>Results</h2>
+    <p>
+      The tracking panel produced about 29% more energy over the test period compared to the
+      fixed control panel, with the biggest gains in the early morning and late afternoon.
+    </p>
+
+    <h2>What I'd do differently</h2>
+    <p>
+      Add a rain/wind sensor to park the panel flat in bad weather, and switch to a
+      weatherproof gearbox — the 3D-printed gears wore down faster than expected after
+      two weeks outdoors.
+    </p>
+
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="../assets/images/solar-tracker-1.jpg" alt="CAD model of the gimbal mount">
+      <img src="../assets/images/solar-tracker-2.jpg" alt="Soldering the sensor board">
+      <img src="../assets/images/solar-tracker-3.jpg" alt="Finished tracker mounted outdoors">
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      Built by Arjun &middot; <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+</body>
+</html>
