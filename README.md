@@ -13,7 +13,8 @@ to Cloudflare Pages from this repo.
 - `data/projects.js` — single source of truth for project metadata (title, date, tags, thumbnail, link, category).
   Each project has a `category` of `"engineering"` or `"music"`, used to route it to the right page.
 - `assets/images/` — photos (compressed, committed to the repo)
-- `assets/videos/` — **not for video files** — see `assets/videos/README.md` for how to embed YouTube/Vimeo instead
+- `assets/videos/` — small clips (~20MB or less) can be committed directly; larger files should be
+  embedded from YouTube/Vimeo instead — see `assets/videos/README.md`
 
 ## Adding a new project
 
