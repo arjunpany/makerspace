@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Timeline · Arjun's Maker Portfolio</title>
+  <title>Music · Arjun's Maker Portfolio</title>
+  <meta name="description" content="A portfolio of music projects.">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,8 +13,8 @@
       <a class="brand" href="index.html">makerspace<span>.</span></a>
       <ul class="nav-links">
         <li><a href="index.html">Engineering</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="timeline.html" class="active">Timeline</a></li>
+        <li><a href="music.html" class="active">Music</a></li>
+        <li><a href="timeline.html">Timeline</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
     </div>
@@ -21,13 +22,18 @@
 
   <header class="hero">
     <div class="container">
-      <h1>Project Timeline</h1>
-      <p>How my projects have progressed over time, oldest to newest.</p>
+      <h1>Music</h1>
+      <p>The other side of what I make — replace this paragraph with your own story: instruments you
+         play, gear or software you produce with, bands or projects you're part of, recordings you're
+         proud of.</p>
     </div>
   </header>
 
   <main class="container">
-    <div class="timeline" id="timeline"></div>
+    <div class="section-heading">
+      <h2>Music projects</h2>
+    </div>
+    <div class="project-grid" id="project-grid"></div>
   </main>
 
   <footer class="site-footer">
@@ -38,6 +44,6 @@
 
   <script src="data/projects.js"></script>
   <script src="js/main.js"></script>
-  <script>renderTimeline("timeline");</script>
+  <script>renderProjectGrid("project-grid", "music");</script>
 </body>
 </html>

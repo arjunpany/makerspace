@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arjun's Maker Portfolio</title>
+  <title>Engineering · Arjun's Maker Portfolio</title>
   <meta name="description" content="A portfolio of maker and engineering projects.">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,7 +12,8 @@
     <div class="container">
       <a class="brand" href="index.html">makerspace<span>.</span></a>
       <ul class="nav-links">
-        <li><a href="index.html" class="active">Projects</a></li>
+        <li><a href="index.html" class="active">Engineering</a></li>
+        <li><a href="music.html">Music</a></li>
         <li><a href="timeline.html">Timeline</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
@@ -21,21 +22,21 @@
 
   <header class="hero">
     <div class="container">
-      <h1>Hi, I'm Arjun — I build things.</h1>
-      <p>A collection of the electronics, robotics, and DIY projects I've built. Browse the projects below or see them laid out on the <a href="timeline.html">timeline</a>.</p>
+      <h1>Hi, I'm Arjun — Electrical &amp; Computer Engineering is my thing.</h1>
+      <p>It started with taking apart old remotes and radios just to see what was inside, and it hasn't
+         really stopped — now it's Arduino trackers, robot arms, and IoT gardens. What hooked me is that
+         EE/CE sits right at the boundary between physical stuff and code: you design a circuit, write the
+         firmware that drives it, and then watch it actually move, sense, or respond in the real world.
+         This page collects the devices, software, and DIY builds — old and new — that trace that thread.
+         See them laid out chronologically on the <a href="timeline.html">timeline</a>.</p>
     </div>
   </header>
 
   <main class="container">
     <div class="section-heading">
-      <h2>Built projects</h2>
+      <h2>Engineering projects</h2>
     </div>
-    <div class="project-grid" id="project-grid-build"></div>
-
-    <div class="section-heading">
-      <h2>Music projects</h2>
-    </div>
-    <div class="project-grid" id="project-grid-music"></div>
+    <div class="project-grid" id="project-grid"></div>
   </main>
 
   <footer class="site-footer">
@@ -46,9 +47,6 @@
 
   <script src="data/projects.js"></script>
   <script src="js/main.js"></script>
-  <script>
-    renderProjectGrid("project-grid-build", "build");
-    renderProjectGrid("project-grid-music", "music");
-  </script>
+  <script>renderProjectGrid("project-grid", "engineering");</script>
 </body>
 </html>
