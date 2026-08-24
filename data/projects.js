@@ -4,6 +4,17 @@
 // category: "engineering" (devices, code, DIY builds) or "music"
 const PROJECTS = [
   {
+    id: "lecturelog",
+    title: "LectureLog",
+    date: "2026-07",
+    dateLabel: "July 2026",
+    tagline: "A Raspberry Pi device that records a lecture, transcribes it, and turns it into clean AI-generated study notes with charts and diagrams.",
+    thumbnail: "assets/images/lecturelog-thumb.jpg",
+    tags: ["Raspberry Pi", "Python", "AI / Claude API", "Whisper"],
+    page: "projects/lecturelog.html",
+    category: "engineering"
+  },
+  {
     id: "solar-tracker",
     title: "Dual-Axis Solar Tracker",
     date: "2026-04",

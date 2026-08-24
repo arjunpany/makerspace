@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LectureLog · Arjun's Maker Portfolio</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container">
+      <a class="brand" href="../index.html">makerspace<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Engineering</a></li>
+        <li><a href="../music.html">Music</a></li>
+        <li><a href="../timeline.html">Timeline</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="project-hero">
+    <div class="container">
+      <div class="date">July 2026</div>
+      <h1>LectureLog</h1>
+      <p class="tagline">A Raspberry Pi device that records a lecture, transcribes it, and turns it into clean AI-generated study notes with charts and diagrams.</p>
+    </div>
+  </header>
+
+  <main class="container project-body">
+
+    <!-- Swap this for a real photo or video. For video, replace the <img> with a
+         YouTube/Vimeo <iframe> embed (unlisted links work great and keep the repo small). -->
+    <div class="media-block">
+      <img src="../assets/images/lecturelog-hero.jpg" alt="LectureLog device on a desk, showing color-coded notes on its touchscreen">
+    </div>
+
+    <dl class="meta-table">
+      <dt>Timeframe</dt><dd>June 2026 – July 2026</dd>
+      <dt>Tools used</dt><dd>Raspberry Pi 4, 5&Prime; HDMI touchscreen, ReSpeaker mic, custom 3D-printed case, Python 3 (Tkinter), sounddevice + faster-whisper, Anthropic Claude API, matplotlib</dd>
+      <dt>Category</dt><dd>Raspberry Pi, AI/ML, Python</dd>
+    </dl>
+
+    <h2>The problem</h2>
+    <p>
+      Taking notes during a fast lecture means you either miss what's being said or miss writing
+      it down. I wanted a dedicated, one-purpose device you press once, that listens to the whole
+      lecture and hands you organized, color-coded study notes afterward — no laptop, no app
+      juggling.
+    </p>
+
+    <h2>How it works</h2>
+    <p>
+      It's a standalone touchscreen device that boots straight into the app, kiosk-style. You tap
+      Start, it records through the ReSpeaker mic; tap Stop, and it transcribes the audio locally
+      with Whisper, then sends the transcript to Claude, which returns structured study notes —
+      headings, key concepts, definitions, examples, formulas, questions, a summary, and even
+      rendered bar/flow charts. Notes are color-coded on screen (blue headings, red facts, green
+      examples, yellow definitions), scrollable by finger, and can be saved, emailed, or deleted —
+      all from the touchscreen, including typing on an on-screen keyboard and connecting to WiFi.
+    </p>
+
+    <h2>Build process</h2>
+    <ul>
+      <li>Built the Python/Tkinter UI with a Start/Stop record flow.</li>
+      <li>Added audio capture (ReSpeaker) and on-device Whisper transcription.</li>
+      <li>Integrated the Claude API to turn transcripts into structured notes.</li>
+      <li>Added color-coded rendering plus matplotlib charts and diagrams.</li>
+      <li>Built the saved-notes library: save, email (SMTP), delete, on-screen keyboard, in-app WiFi.</li>
+      <li>Set up kiosk auto-launch on boot.</li>
+      <li>Designed a custom 3D-printable case (parametric OpenSCAD) sized to the exact boards.</li>
+    </ul>
+
+    <h2>Results</h2>
+    <p>
+      A working desk device that goes from spoken lecture to polished, color-coded study notes in
+      well under a minute for short recordings. It saves notes locally, emails them, runs
+      fullscreen on boot, and lives in a custom-printed black case with mounts for the Pi,
+      display, and mic.
+    </p>
+
+    <h2>What I'd do differently</h2>
+    <ul>
+      <li>Move transcription to a cloud service (Groq) so long lectures process in seconds instead of minutes.</li>
+      <li>Add auto-reconnect if the mic is unplugged.</li>
+      <li>Add an interactive tool so students can ask the AI questions.</li>
+      <li>Maybe cloud sync so notes appear on your phone automatically.</li>
+    </ul>
+
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="../assets/images/lecturelog-1.jpg" alt="LectureLog Tkinter UI showing color-coded study notes">
+      <img src="../assets/images/lecturelog-2.jpg" alt="Custom 3D-printed case for the Pi and touchscreen">
+      <img src="../assets/images/lecturelog-3.jpg" alt="ReSpeaker mic and Raspberry Pi 4 wiring">
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      Built by Arjun &middot; <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+</body>
+</html>
