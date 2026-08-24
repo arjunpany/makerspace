@@ -4,6 +4,17 @@
 // category: "engineering" (devices, code, DIY builds) or "music"
 const PROJECTS = [
   {
+    id: "class-d-amplifier-dead-time-study",
+    title: "Class-D Amplifier Dead-Time Study",
+    date: "2026-08",
+    dateLabel: "August 2026",
+    tagline: "Simulating how a Class-D amplifier's switching safety gap affects audio distortion.",
+    thumbnail: "assets/images/class-d-amplifier-dead-time-study-thumb.jpg",
+    tags: ["LTspice", "Power Electronics", "Circuit Simulation", "PWM"],
+    page: "projects/class-d-amplifier-dead-time-study.html",
+    category: "engineering"
+  },
+  {
     id: "lecturelog",
     title: "AI Note-Taking Device",
     date: "2026-07",
