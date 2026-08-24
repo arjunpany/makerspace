@@ -131,6 +131,13 @@ img { max-width: 100%; display: block; }
 .project-card .date { color: var(--accent); font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
 .project-card p { color: var(--text-muted); font-size: 0.92rem; margin: 8px 0 12px; }
 
+.empty-state {
+  grid-column: 1 / -1;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  padding: 24px 0;
+}
+
 .tag-list { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 0; }
 .tag-list li {
   background: var(--accent-soft);

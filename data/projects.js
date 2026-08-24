@@ -1,6 +1,7 @@
 // Single source of truth for all projects.
 // Add a new project here, then create the matching page in /projects/.
 // date format: "YYYY-MM" (used for sorting the timeline)
+// category: "build" (electronics/robotics/DIY) or "music"
 const PROJECTS = [
   {
     id: "solar-tracker",
@@ -10,7 +11,8 @@ const PROJECTS = [
     tagline: "An Arduino-driven mount that follows the sun to boost panel output ~30%.",
     thumbnail: "assets/images/solar-tracker-thumb.jpg",
     tags: ["Arduino", "3D Printing", "Electronics"],
-    page: "projects/solar-tracker.html"
+    page: "projects/solar-tracker.html",
+    category: "build"
   },
   {
     id: "robot-arm",
@@ -20,7 +22,8 @@ const PROJECTS = [
     tagline: "A servo-actuated arm controlled by inverse kinematics running on a Raspberry Pi.",
     thumbnail: "assets/images/robot-arm-thumb.jpg",
     tags: ["Robotics", "Python", "CAD"],
-    page: "projects/robot-arm.html"
+    page: "projects/robot-arm.html",
+    category: "build"
   },
   {
     id: "smart-garden",
@@ -30,7 +33,8 @@ const PROJECTS = [
     tagline: "A soil-sensing irrigation box that waters itself and logs data to a web dashboard.",
     thumbnail: "assets/images/smart-garden-thumb.jpg",
     tags: ["IoT", "Woodworking", "Web Dev"],
-    page: "projects/smart-garden.html"
+    page: "projects/smart-garden.html",
+    category: "build"
   }
 ];
 
@@ -42,4 +46,9 @@ function projectsByDateDesc() {
 // Sorted oldest-first for the timeline.
 function projectsByDateAsc() {
   return [...PROJECTS].sort((a, b) => a.date.localeCompare(b.date));
+}
+
+// Newest-first, filtered to a single category ("build" or "music").
+function projectsByCategoryDesc(category) {
+  return projectsByDateDesc().filter(p => p.category === category);
 }

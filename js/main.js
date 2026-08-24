@@ -25,10 +25,13 @@ function timelineItemHTML(p) {
   `;
 }
 
-function renderProjectGrid(containerId) {
+function renderProjectGrid(containerId, category) {
   const el = document.getElementById(containerId);
   if (!el) return;
-  el.innerHTML = projectsByDateDesc().map(projectCardHTML).join("");
+  const projects = category ? projectsByCategoryDesc(category) : projectsByDateDesc();
+  el.innerHTML = projects.length
+    ? projects.map(projectCardHTML).join("")
+    : `<p class="empty-state">Nothing here yet — check back soon.</p>`;
 }
 
 function renderTimeline(containerId) {
