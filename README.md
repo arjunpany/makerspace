@@ -20,7 +20,7 @@ to Cloudflare Pages from this repo.
 
 1. Add a new entry to the `PROJECTS` array in [`data/projects.js`](data/projects.js), including a
    `category` of `"engineering"` or `"music"`.
-2. Copy an existing file in `projects/` (e.g. `projects/solar-tracker.html`) as a
+2. Copy an existing file in `projects/` (e.g. `projects/lecturelog.html`) as a
    starting template and fill in your own write-up, photos, and (optionally) a
    video embed.
 3. Add your photos to `assets/images/`, keeping them reasonably compressed
