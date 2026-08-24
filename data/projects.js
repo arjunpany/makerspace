@@ -5,7 +5,7 @@
 const PROJECTS = [
   {
     id: "lecturelog",
-    title: "LectureLog",
+    title: "AI Note-Taking Device",
     date: "2026-07",
     dateLabel: "July 2026",
     tagline: "A Raspberry Pi device that records a lecture, transcribes it, and turns it into clean AI-generated study notes with charts and diagrams.",
