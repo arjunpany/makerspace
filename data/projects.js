@@ -37,6 +37,17 @@ const PROJECTS = [
     category: "engineering"
   },
   {
+    id: "riptide-frc-1318",
+    title: "Riptide — FRC Team 1318 Competition Robot",
+    date: "2025-04",
+    dateLabel: "April 2025",
+    tagline: "Joined Team 1318's electrical subteam as a rookie, learning FRC robot systems while the team developed Riptide for the 2025 REEFSCAPE season.",
+    thumbnail: "assets/images/riptide-frc-1318-thumb.jpg",
+    tags: ["FIRST Robotics", "Electrical Engineering", "Robotics", "FRC"],
+    page: "projects/riptide-frc-1318.html",
+    category: "engineering"
+  },
+  {
     id: "karr-vehicle-registration-flow",
     title: "KARR Vehicle Registration Flow",
     date: "2025-08",
