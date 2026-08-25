@@ -178,6 +178,17 @@ const PROJECTS = [
     tags: ["Hip-Hop", "Beat Making", "Sampling"],
     page: "projects/nba-youngboy-acapella-beat.html",
     category: "music"
+  },
+  {
+    id: "repitched-sample-beat",
+    title: "Repitched Sample Beat",
+    date: "2025-08",
+    dateLabel: "August 2025",
+    tagline: "A beat built by re-pitching a sample and layering drums on top of it.",
+    thumbnail: "assets/images/repitched-sample-beat-thumb.jpg",
+    tags: ["Hip-Hop", "Beat Making", "Sampling"],
+    page: "projects/repitched-sample-beat.html",
+    category: "music"
   }
 ];
 
