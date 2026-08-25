@@ -189,6 +189,17 @@ const PROJECTS = [
     tags: ["Hip-Hop", "Beat Making", "Sampling"],
     page: "projects/repitched-sample-beat.html",
     category: "music"
+  },
+  {
+    id: "weeknd-travis-scott-beat",
+    title: "The Weeknd x Travis Scott Beat",
+    date: "2023-08",
+    dateLabel: "August 2023",
+    tagline: "A two-part beat: a Weeknd-style first half built for singing, transitioning through a water sample into a hard-hitting Travis Scott-style hip-hop second half.",
+    thumbnail: "assets/images/weeknd-travis-scott-beat-thumb.jpg",
+    tags: ["Hip-Hop", "Beat Making", "Sampling"],
+    page: "projects/weeknd-travis-scott-beat.html",
+    category: "music"
   }
 ];
 
