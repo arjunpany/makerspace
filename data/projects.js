@@ -288,6 +288,17 @@ const PROJECTS = [
     tags: ["Cinematic", "Hip-Hop", "Beat Making"],
     page: "projects/nightfall-in-houston.html",
     category: "music"
+  },
+  {
+    id: "dopamine-lil-tecca-type-beat",
+    title: "Dopamine - Lil Tecca Type Beat",
+    date: "2026-04",
+    dateLabel: "April 2026",
+    tagline: "Inspired by Lil Tecca's latest album, built around the same high-energy melodies and drums the title \"Dopamine\" points to.",
+    thumbnail: "assets/images/dopamine-lil-tecca-type-beat-thumb.jpg",
+    tags: ["Hip-Hop", "Beat Making"],
+    page: "projects/dopamine-lil-tecca-type-beat.html",
+    category: "music"
   }
 ];
 
