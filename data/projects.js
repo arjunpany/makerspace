@@ -200,6 +200,17 @@ const PROJECTS = [
     tags: ["Hip-Hop", "Beat Making", "Sampling"],
     page: "projects/weeknd-travis-scott-beat.html",
     category: "music"
+  },
+  {
+    id: "rod-wave-type-beat",
+    title: "Rod Wave Type Beat",
+    date: "2022-09",
+    dateLabel: "September 2022",
+    tagline: "A beat built from a sample, with a few melodies layered on top of it and drums added in.",
+    thumbnail: "assets/images/rod-wave-type-beat-thumb.jpg",
+    tags: ["Hip-Hop", "Beat Making", "Sampling"],
+    page: "projects/rod-wave-type-beat.html",
+    category: "music"
   }
 ];
 
