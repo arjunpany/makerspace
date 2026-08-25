@@ -158,17 +158,6 @@ const PROJECTS = [
     category: "music"
   },
   {
-    id: "drill-beat",
-    title: "Drill Beat",
-    date: "2022-04",
-    dateLabel: "April 2022",
-    tagline: "A full drill beat built from a drill drum kit and a sample.",
-    thumbnail: "assets/images/drill-beat-thumb.jpg",
-    tags: ["Drill", "Hip-Hop", "Beat Making", "Sampling"],
-    page: "projects/drill-beat.html",
-    category: "music"
-  },
-  {
     id: "repitched-sample-beat",
     title: "Lil Mosey Type Beat",
     date: "2022-08",
