@@ -167,6 +167,17 @@ const PROJECTS = [
     tags: ["Drill", "Hip-Hop", "Beat Making", "Sampling"],
     page: "projects/drill-beat.html",
     category: "music"
+  },
+  {
+    id: "nba-youngboy-acapella-beat",
+    title: "NBA YoungBoy Acapella Beat",
+    date: "2022-04",
+    dateLabel: "April 2022",
+    tagline: "A hip-hop beat built from a sample and layered hip-hop drums, with an NBA YoungBoy acapella laid on top.",
+    thumbnail: "assets/images/nba-youngboy-acapella-beat-thumb.jpg",
+    tags: ["Hip-Hop", "Beat Making", "Sampling"],
+    page: "projects/nba-youngboy-acapella-beat.html",
+    category: "music"
   }
 ];
 
