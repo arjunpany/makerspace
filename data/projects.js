@@ -310,6 +310,17 @@ const PROJECTS = [
     tags: ["Songwriting", "Piano", "Collaboration"],
     page: "projects/mixed-emotions.html",
     category: "music"
+  },
+  {
+    id: "big-feeling-remix",
+    title: "Big Feeling Remix",
+    date: "2026-06",
+    dateLabel: "June 2026",
+    tagline: "Took a beat I made and added vocals on top for Skio Music's BIG FEELING Remix Contest — placed #1 in Composition and Mixing within the Hip-Hop genre, #6 overall.",
+    thumbnail: "assets/images/big-feeling-remix-thumb.jpg",
+    tags: ["Remix", "Hip-Hop", "Contest"],
+    page: "projects/big-feeling-remix.html",
+    category: "music"
   }
 ];
 
