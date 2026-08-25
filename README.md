@@ -15,6 +15,8 @@ to Cloudflare Pages from this repo.
 - `assets/images/` — photos (compressed, committed to the repo)
 - `assets/videos/` — small clips (~20MB or less) can be committed directly; larger files should be
   embedded from YouTube/Vimeo instead — see `assets/videos/README.md`
+- `assets/audio/` — beats/tracks for the Music page; small files (~20MB or less) can be committed
+  directly — see `assets/audio/README.md`
 
 ## Adding a new project
 

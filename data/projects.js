@@ -145,6 +145,17 @@ const PROJECTS = [
     tags: ["Cardboard Engineering", "DIY", "Recycled Materials", "Woodworking"],
     page: "projects/diy-foosball-table.html",
     category: "engineering"
+  },
+  {
+    id: "21-savage-acapella-beat",
+    title: "21 Savage Acapella Beat",
+    date: "2022-04",
+    dateLabel: "April 2022",
+    tagline: "A hip-hop beat built around a snapped 21 Savage acapella, with a catchy repetitive melody grown from a single sample hit and layered trap drums.",
+    thumbnail: "assets/images/21-savage-acapella-beat-thumb.jpg",
+    tags: ["Hip-Hop", "Trap", "Beat Making", "Sampling"],
+    page: "projects/21-savage-acapella-beat.html",
+    category: "music"
   }
 ];
 
