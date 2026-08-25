@@ -233,6 +233,17 @@ const PROJECTS = [
     tags: ["Trap", "Hip-Hop", "Beat Making"],
     page: "projects/metro-boomin-type-beat.html",
     category: "music"
+  },
+  {
+    id: "future-type-beat",
+    title: "Future Type Beat",
+    date: "2024-04",
+    dateLabel: "April 2024",
+    tagline: "A melodic trap beat built from guitars, pianos, and pads, with trap drums layered on top.",
+    thumbnail: "assets/images/future-type-beat-thumb.jpg",
+    tags: ["Trap", "Hip-Hop", "Beat Making"],
+    page: "projects/future-type-beat.html",
+    category: "music"
   }
 ];
 
