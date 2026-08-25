@@ -277,6 +277,17 @@ const PROJECTS = [
     tags: ["Cinematic", "Beat Making"],
     page: "projects/khalid-cinematic-beat.html",
     category: "music"
+  },
+  {
+    id: "nightfall-in-houston",
+    title: "Nightfall in Houston - Don Toliver Octane Type Beat",
+    date: "2026-02",
+    dateLabel: "February 2026",
+    tagline: "Inspired by the cinematic feel of Don Toliver's latest album — bells, pads, and leads, built as a two-part beat.",
+    thumbnail: "assets/images/nightfall-in-houston-thumb.jpg",
+    tags: ["Cinematic", "Hip-Hop", "Beat Making"],
+    page: "projects/nightfall-in-houston.html",
+    category: "music"
   }
 ];
 
