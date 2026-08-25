@@ -57,6 +57,17 @@ const PROJECTS = [
     tags: ["Web Development", "Data", "Career Exploration", "Hackathon"],
     page: "projects/careerfinder.html",
     category: "engineering"
+  },
+  {
+    id: "periodiq",
+    title: "PeriodiQ",
+    date: "2024-08",
+    dateLabel: "August 2024",
+    tagline: "Built an interactive periodic table study and quiz app to help students practice identifying chemical elements during GIA Hacks 2.",
+    thumbnail: "assets/images/periodiq-thumb.jpg",
+    tags: ["JavaScript", "Code.org App Lab", "Data", "Education"],
+    page: "projects/periodiq.html",
+    category: "engineering"
   }
 ];
 

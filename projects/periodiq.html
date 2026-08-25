@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PeriodiQ · Arjun's Maker Portfolio</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container">
+      <a class="brand" href="../index.html">makerspace<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Engineering</a></li>
+        <li><a href="../music.html">Music</a></li>
+        <li><a href="../timeline.html">Timeline</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="project-hero">
+    <div class="container">
+      <div class="date">August 2024</div>
+      <h1>PeriodiQ</h1>
+      <p class="tagline">Built an interactive periodic table study and quiz app to help students practice identifying chemical elements during GIA Hacks 2.</p>
+    </div>
+  </header>
+
+  <main class="container project-body">
+
+    <!-- Swap this for a real screenshot. For video, replace the <img> with a
+         YouTube/Vimeo <iframe> embed (unlisted links work great and keep the repo small). -->
+    <div class="media-block">
+      <img src="../assets/images/periodiq-hero.jpg" alt="PeriodiQ quiz screen asking the user to identify a chemical element from its symbol">
+    </div>
+
+    <dl class="meta-table">
+      <dt>Timeframe</dt><dd>August 10–23, 2024 (GIA Hacks 2 development period)</dd>
+      <dt>Tools used</dt><dd>JavaScript, Code.org App Lab, periodic table dataset</dd>
+      <dt>Category</dt><dd>Education, Web Development</dd>
+      <dt>Event</dt><dd>GIA Hacks 2 — 220 registered participants, 53 submitted projects</dd>
+    </dl>
+
+    <h2>The problem</h2>
+    <p>
+      GIA Hacks 2 challenged high school students to either build software addressing a global
+      or local issue or create software that helps students, including educational tools.
+    </p>
+    <p>
+      My teammate and I had taken chemistry the previous school year and realized how important
+      understanding the periodic table was for succeeding in chemistry and other science
+      courses. We wanted to create a simple tool that could help future students study element
+      names and symbols through both review and active practice rather than relying only on
+      memorization from a traditional periodic table.
+    </p>
+
+    <h2>How it works</h2>
+    <p>
+      PeriodiQ combines a study mode and quiz mode using information from a periodic table
+      dataset.
+    </p>
+    <p>
+      In Study mode, users can scroll through a reference list matching chemical symbols with
+      their corresponding element names, such as <code>K = Potassium</code> and
+      <code>Fe = Iron</code>.
+    </p>
+    <p>
+      In Quiz mode, the app displays a chemical symbol and asks the user to identify the
+      corresponding element. The user types an answer and presses Guess, and the app checks the
+      response and immediately indicates whether it is correct. Correct answers contribute to
+      the user's score, which is displayed on the quiz screen. Users can press New Element to
+      receive another question or switch to Study whenever they need to review the elements.
+    </p>
+    <p>
+      This creates a simple learning cycle of study &rarr; recall &rarr; feedback &rarr; score
+      &rarr; repeat.
+    </p>
+
+    <h2>Process</h2>
+    <ul>
+      <li>Worked with my teammate to identify an educational problem that fit GIA Hacks 2's student-focused challenge.</li>
+      <li>Used our recent experience taking chemistry to focus on learning periodic table elements and symbols.</li>
+      <li>Built the application in Code.org App Lab using JavaScript.</li>
+      <li>Integrated a periodic table dataset with the application rather than manually building the quiz around static questions.</li>
+      <li>Created the Study screen to provide students with a reference for element names and symbols.</li>
+      <li>Developed the Quiz screen to generate element questions, evaluate user responses, provide feedback, and track scores.</li>
+      <li>Connected the quiz and study interfaces so students could move between learning and testing themselves.</li>
+      <li>Debugged challenges involving communication between the App Lab interface and dataset.</li>
+      <li>Completed a working application and submitted a video demonstration and project entry to GIA Hacks 2.</li>
+    </ul>
+
+    <h2>Results</h2>
+    <p>
+      PeriodiQ was successfully completed and submitted to GIA Hacks 2, an international virtual
+      hackathon with 220 registered participants and 53 submitted projects. The project did not
+      place in the hackathon's Top 5 — the accomplishment here is completing and demonstrating a
+      functional educational application during the two-week hackathon. PeriodiQ remains listed
+      in the official GIA Hacks 2 project gallery.
+    </p>
+
+    <h2>What I'd do differently</h2>
+    <p>
+      I would expand the quiz beyond identifying an element from its symbol by adding questions
+      involving atomic numbers, element groups, properties, and symbol-to-name/name-to-symbol
+      identification. I would also add difficulty levels, question randomization, accuracy
+      statistics, and a better progress-tracking system so students could identify which
+      elements they struggle with most.
+    </p>
+    <p>
+      I would also redesign the interface to make the study screen more visual and interactive,
+      potentially using an actual periodic table layout rather than a scrollable list. This
+      would turn PeriodiQ from a simple memorization tool into a more complete chemistry study
+      application.
+    </p>
+
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="../assets/images/periodiq-1.jpg" alt="PeriodiQ Study the Elements screen showing chemical symbols matched with element names">
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      Built by Arjun &middot; <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+</body>
+</html>
