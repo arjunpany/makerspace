@@ -288,6 +288,17 @@ const PROJECTS = [
     tags: ["Trap", "Hip-Hop", "Beat Making", "Sampling"],
     page: "projects/guitar-in-heaven-trap-beat.html",
     category: "music"
+  },
+  {
+    id: "dual-threat",
+    title: "Dual Threat",
+    date: "2026-08",
+    dateLabel: "August 2026",
+    tagline: "A jazz-hip-hop fusion piece written at a Stanford CCRMA workshop, blending a piano MIDI composition with live guitar, bass, violin, sax, and vocals from fellow workshop musicians.",
+    thumbnail: "assets/images/dual-threat-thumb.jpg",
+    tags: ["Jazz", "Hip-Hop", "Composition", "Collaboration"],
+    page: "projects/dual-threat.html",
+    category: "music"
   }
 ];
 
