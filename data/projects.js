@@ -244,6 +244,17 @@ const PROJECTS = [
     tags: ["Trap", "Hip-Hop", "Beat Making"],
     page: "projects/future-type-beat.html",
     category: "music"
+  },
+  {
+    id: "future-trap-type-beat",
+    title: "Future Trap Type Beat",
+    date: "2025-02",
+    dateLabel: "February 2025",
+    tagline: "A trap beat built with three different 808s, a sample flipped in the second half, and trap drums throughout.",
+    thumbnail: "assets/images/future-trap-type-beat-thumb.jpg",
+    tags: ["Trap", "Hip-Hop", "Beat Making", "Sampling"],
+    page: "projects/future-trap-type-beat.html",
+    category: "music"
   }
 ];
 
