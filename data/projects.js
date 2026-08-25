@@ -299,6 +299,17 @@ const PROJECTS = [
     tags: ["Jazz", "Hip-Hop", "Composition", "Collaboration"],
     page: "projects/dual-threat.html",
     category: "music"
+  },
+  {
+    id: "mixed-emotions",
+    title: "Mixed Emotions - Arjun Pany & Chris Hill",
+    date: "2025-01",
+    dateLabel: "January 2025",
+    tagline: "Piano melodies, lyrics, and arrangement by Arjun Pany, with songwriting teacher Chris Hill on vocals.",
+    thumbnail: "assets/images/mixed-emotions-thumb.jpg",
+    tags: ["Songwriting", "Piano", "Collaboration"],
+    page: "projects/mixed-emotions.html",
+    category: "music"
   }
 ];
 
