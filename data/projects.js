@@ -101,6 +101,17 @@ const PROJECTS = [
     tags: ["PC Building", "Computer Hardware", "Component Research", "Hardware Assembly"],
     page: "projects/first-gaming-pc-build.html",
     category: "engineering"
+  },
+  {
+    id: "thatha-lego-story",
+    title: "Thatha Lego Story",
+    date: "2017-07",
+    dateLabel: "July 2017",
+    tagline: "A series of handmade LEGO dioramas telling my grandfather's life story, built for his funeral in July 2017.",
+    thumbnail: "assets/images/thatha-lego-story-thumb.jpg",
+    tags: ["LEGO", "Diorama", "Storytelling", "Family Tribute"],
+    page: "projects/thatha-lego-story.html",
+    category: "engineering"
   }
 ];
 
