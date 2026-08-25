@@ -125,6 +125,17 @@ const PROJECTS = [
     category: "engineering"
   },
   {
+    id: "lego-beyblades",
+    title: "LEGO Beyblades",
+    date: "2017-02",
+    dateLabel: "February 2017",
+    tagline: "Built custom spinning-top toys out of LEGO bricks, designed to spin like beyblades.",
+    thumbnail: "assets/images/lego-beyblades-thumb.jpg",
+    tags: ["LEGO", "DIY Toys", "Mechanical Design"],
+    page: "projects/lego-beyblades.html",
+    category: "engineering"
+  },
+  {
     id: "diy-foosball-table",
     title: "DIY Foosball Table",
     date: "2017-03",
