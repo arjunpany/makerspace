@@ -181,7 +181,7 @@ const PROJECTS = [
   },
   {
     id: "repitched-sample-beat",
-    title: "Repitched Sample Beat",
+    title: "Lil Mosey Type Beat",
     date: "2022-08",
     dateLabel: "August 2022",
     tagline: "A beat built by re-pitching a sample and layering drums on top of it.",
