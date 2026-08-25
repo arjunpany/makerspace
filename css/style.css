@@ -149,11 +149,20 @@ img { max-width: 100%; display: block; }
 }
 
 /* Timeline */
+.timeline-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 48px;
+  align-items: start;
+}
+
+.timeline-column .section-heading {
+  margin: 40px 0 0;
+}
+
 .timeline {
   position: relative;
   padding: 48px 0 80px;
-  max-width: 760px;
-  margin: 0 auto;
 }
 
 .timeline::before {
@@ -235,6 +244,10 @@ img { max-width: 100%; display: block; }
   color: var(--text-muted);
   font-size: 0.9rem;
   text-align: center;
+}
+
+@media (max-width: 700px) {
+  .timeline-columns { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 600px) {

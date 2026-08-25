@@ -224,17 +224,6 @@ const PROJECTS = [
     category: "music"
   },
   {
-    id: "yosemite-gunna-remix",
-    title: "Yosemite Gunna Remix",
-    date: "2025-08",
-    dateLabel: "August 2025",
-    tagline: "A remix with a melody close to \"Yosemite\" by Travis Scott and Gunna, with the sample flipped and re-energized in the second half.",
-    thumbnail: "assets/images/yosemite-gunna-remix-thumb.jpg",
-    tags: ["Hip-Hop", "Beat Making", "Sampling"],
-    page: "projects/yosemite-gunna-remix.html",
-    category: "music"
-  },
-  {
     id: "khalid-cinematic-beat",
     title: "Khalid Cinematic Beat",
     date: "2026-01",
