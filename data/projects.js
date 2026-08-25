@@ -93,7 +93,7 @@ const PROJECTS = [
   },
   {
     id: "first-gaming-pc-build",
-    title: "My First Gaming PC Build",
+    title: "Gaming PC",
     date: "2021-08",
     dateLabel: "August 2021",
     tagline: "Researched, budgeted, and assembled my first custom gaming PC at 13, selecting compatible components for performance within a ~$1,300 budget.",
