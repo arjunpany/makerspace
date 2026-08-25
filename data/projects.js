@@ -236,7 +236,7 @@ const PROJECTS = [
   },
   {
     id: "future-type-beat",
-    title: "Future Type Beat",
+    title: "Future Melodic Type Beat",
     date: "2024-04",
     dateLabel: "April 2024",
     tagline: "A melodic trap beat built from guitars, pianos, and pads, with trap drums layered on top.",
