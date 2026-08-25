@@ -288,6 +288,17 @@ const PROJECTS = [
     tags: ["Hip-Hop", "Beat Making"],
     page: "projects/dopamine-lil-tecca-type-beat.html",
     category: "music"
+  },
+  {
+    id: "rodeo-travis-scott-type-beat",
+    title: "RODEO - Travis Scott Type Beat",
+    date: "2026-04",
+    dateLabel: "April 2026",
+    tagline: "Heavy distorted guitars and spooky melodies inspired by Travis Scott's 2015 album Rodeo.",
+    thumbnail: "assets/images/rodeo-travis-scott-type-beat-thumb.jpg",
+    tags: ["Hip-Hop", "Beat Making"],
+    page: "projects/rodeo-travis-scott-type-beat.html",
+    category: "music"
   }
 ];
 
