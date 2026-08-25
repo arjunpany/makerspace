@@ -90,6 +90,17 @@ const PROJECTS = [
     tags: ["JavaScript", "Code.org App Lab", "Data", "Education"],
     page: "projects/periodiq.html",
     category: "engineering"
+  },
+  {
+    id: "first-gaming-pc-build",
+    title: "My First Gaming PC Build",
+    date: "2021-08",
+    dateLabel: "August 2021",
+    tagline: "Researched, budgeted, and assembled my first custom gaming PC at 13, selecting compatible components for performance within a ~$1,300 budget.",
+    thumbnail: "assets/images/first-gaming-pc-build-thumb.jpg",
+    tags: ["PC Building", "Computer Hardware", "Component Research", "Hardware Assembly"],
+    page: "projects/first-gaming-pc-build.html",
+    category: "engineering"
   }
 ];
 
