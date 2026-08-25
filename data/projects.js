@@ -255,6 +255,28 @@ const PROJECTS = [
     tags: ["Trap", "Hip-Hop", "Beat Making", "Sampling"],
     page: "projects/future-trap-type-beat.html",
     category: "music"
+  },
+  {
+    id: "yosemite-gunna-remix",
+    title: "Yosemite Gunna Remix",
+    date: "2025-08",
+    dateLabel: "August 2025",
+    tagline: "A remix with a melody close to \"Yosemite\" by Travis Scott and Gunna, with the sample flipped and re-energized in the second half.",
+    thumbnail: "assets/images/yosemite-gunna-remix-thumb.jpg",
+    tags: ["Hip-Hop", "Beat Making", "Sampling"],
+    page: "projects/yosemite-gunna-remix.html",
+    category: "music"
+  },
+  {
+    id: "khalid-cinematic-beat",
+    title: "Khalid Cinematic Beat",
+    date: "2026-01",
+    dateLabel: "January 2026",
+    tagline: "A cinematic beat built from guitar and flutes with simple drums, made for someone to sing over.",
+    thumbnail: "assets/images/khalid-cinematic-beat-thumb.jpg",
+    tags: ["Cinematic", "Beat Making"],
+    page: "projects/khalid-cinematic-beat.html",
+    category: "music"
   }
 ];
 
