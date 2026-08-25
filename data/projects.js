@@ -112,6 +112,17 @@ const PROJECTS = [
     tags: ["LEGO", "Diorama", "Storytelling", "Family Tribute"],
     page: "projects/thatha-lego-story.html",
     category: "engineering"
+  },
+  {
+    id: "diy-foosball-table",
+    title: "DIY Foosball Table",
+    date: "2017-03",
+    dateLabel: "March 2017",
+    tagline: "Built a working foosball table from a cardboard box, wooden dowel rods, and color-coded clothespins standing in for players.",
+    thumbnail: "assets/images/diy-foosball-table-thumb.jpg",
+    tags: ["Cardboard Engineering", "DIY", "Recycled Materials", "Woodworking"],
+    page: "projects/diy-foosball-table.html",
+    category: "engineering"
   }
 ];
 
