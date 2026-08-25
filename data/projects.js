@@ -291,7 +291,7 @@ const PROJECTS = [
   },
   {
     id: "dual-threat",
-    title: "Dual Threat",
+    title: "Dual Threat - Arjun Pany",
     date: "2026-08",
     dateLabel: "August 2026",
     tagline: "A jazz-hip-hop fusion piece written at a Stanford CCRMA workshop, blending a piano MIDI composition with live guitar, bass, violin, sax, and vocals from fellow workshop musicians.",
