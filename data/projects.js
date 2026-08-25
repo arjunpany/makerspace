@@ -35,6 +35,17 @@ const PROJECTS = [
     tags: ["React Native", "TypeScript", "API Integration", "Mobile Development"],
     page: "projects/karr-vehicle-registration-flow.html",
     category: "engineering"
+  },
+  {
+    id: "raspberry-pi-weather-station",
+    title: "Raspberry Pi Weather Station",
+    date: "2024-08",
+    dateLabel: "August 2024",
+    tagline: "Built a Raspberry Pi weather station from hardware originally intended for a night-vision project, turning an unsuccessful prototype into a functional device.",
+    thumbnail: "assets/images/raspberry-pi-weather-station-thumb.jpg",
+    tags: ["Raspberry Pi", "Python", "API Integration", "Hardware"],
+    page: "projects/raspberry-pi-weather-station.html",
+    category: "engineering"
   }
 ];
 

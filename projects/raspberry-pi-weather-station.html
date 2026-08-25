@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raspberry Pi Weather Station · Arjun's Maker Portfolio</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container">
+      <a class="brand" href="../index.html">makerspace<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Engineering</a></li>
+        <li><a href="../music.html">Music</a></li>
+        <li><a href="../timeline.html">Timeline</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="project-hero">
+    <div class="container">
+      <div class="date">August 2024</div>
+      <h1>Raspberry Pi Weather Station</h1>
+      <p class="tagline">Built a Raspberry Pi weather station from hardware originally intended for a night-vision project, turning an unsuccessful prototype into a functional device.</p>
+    </div>
+  </header>
+
+  <main class="container project-body">
+
+    <!-- Swap this for a real photo. For video, replace the <img> with a
+         YouTube/Vimeo <iframe> embed (unlisted links work great and keep the repo small). -->
+    <div class="media-block">
+      <img src="../assets/images/raspberry-pi-weather-station-hero.jpg" alt="Raspberry Pi weather station displaying live weather data on its connected screen">
+    </div>
+
+    <dl class="meta-table">
+      <dt>Timeframe</dt><dd>June 2024 – August 2024</dd>
+      <dt>Tools used</dt><dd>Raspberry Pi, Python, Raspberry Pi OS, weather API, HDMI display</dd>
+      <dt>Category</dt><dd>Raspberry Pi, API Integration</dd>
+    </dl>
+
+    <h2>The original goal</h2>
+    <p>
+      The project originally began as an attempt to build digital night-vision goggles. I
+      planned to use a Raspberry Pi with an infrared-sensitive camera, IR illumination, and a
+      small display to create a live low-light video system. The project gave me an opportunity
+      to experiment with Raspberry Pi hardware, cameras, displays, and power electronics.
+    </p>
+
+    <h2>What went wrong</h2>
+    <p>
+      While developing the goggles, I encountered several hardware integration problems,
+      particularly with camera detection and compatibility. I experimented with multiple
+      components and configurations, including an Arducam IMX477 camera that turned out to be
+      designed for different hardware and wasn't compatible with my setup. After repeated
+      troubleshooting, I decided that continuing to purchase components for the original design
+      wasn't the best approach.
+    </p>
+
+    <h2>The pivot</h2>
+    <p>
+      Instead of abandoning the project, I looked for another use for the Raspberry Pi and
+      display I already had. I decided to turn the hardware into a weather station.
+    </p>
+    <p>
+      The finished system uses a Raspberry Pi to retrieve weather information for a specified
+      location through a weather API. Python handles the weather data and presents it through
+      the connected display. This allowed me to reuse the main computing and display hardware
+      while replacing the unsuccessful camera-based system with a software-driven project.
+    </p>
+
+    <h2>Process</h2>
+    <ul>
+      <li>Started by researching and designing a Raspberry Pi-based night-vision system.</li>
+      <li>Experimented with cameras, infrared components, displays, and power hardware.</li>
+      <li>Troubleshot camera detection and hardware compatibility problems.</li>
+      <li>Decided to repurpose the working Raspberry Pi and display rather than continue replacing components.</li>
+      <li>Researched ways to turn the existing hardware into a weather station.</li>
+      <li>Set up the Raspberry Pi and weather-station software.</li>
+      <li>Connected the system to a weather API to retrieve location-based weather data.</li>
+      <li>Configured the display to present the retrieved weather information.</li>
+      <li>Tested the finished system and turned the original hardware into a functional standalone project.</li>
+    </ul>
+
+    <h2>Results</h2>
+    <p>
+      The final result was a working Raspberry Pi weather station that retrieves and displays
+      weather information for a specified location. Although the project started as an
+      unsuccessful night-vision prototype, I was able to reuse its core hardware rather than
+      abandoning it. The project ultimately taught me as much about troubleshooting and adapting
+      an engineering design as it did about Raspberry Pi development.
+    </p>
+
+    <h2>What I'd do differently</h2>
+    <p>
+      I'd add physical environmental sensors for measurements such as temperature, humidity, and
+      atmospheric pressure. That would allow the station to collect its own local data instead of
+      relying entirely on an external weather API. I'd also approach the original night-vision
+      project differently by verifying camera compatibility and testing the camera-to-display
+      pipeline before designing the rest of the system.
+    </p>
+
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="../assets/images/raspberry-pi-weather-station-1.jpg" alt="Raspberry Pi weather station hardware setup">
+      <img src="../assets/images/raspberry-pi-weather-station-2.jpg" alt="Weather station display showing retrieved weather data">
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      Built by Arjun &middot; <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+</body>
+</html>
