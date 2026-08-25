@@ -156,6 +156,17 @@ const PROJECTS = [
     tags: ["Hip-Hop", "Trap", "Beat Making", "Sampling"],
     page: "projects/21-savage-acapella-beat.html",
     category: "music"
+  },
+  {
+    id: "drill-beat",
+    title: "Drill Beat",
+    date: "2022-04",
+    dateLabel: "April 2022",
+    tagline: "A full drill beat built from a drill drum kit and a sample.",
+    thumbnail: "assets/images/drill-beat-thumb.jpg",
+    tags: ["Drill", "Hip-Hop", "Beat Making", "Sampling"],
+    page: "projects/drill-beat.html",
+    category: "music"
   }
 ];
 
