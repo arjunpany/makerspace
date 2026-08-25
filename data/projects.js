@@ -15,6 +15,17 @@ const PROJECTS = [
     category: "engineering"
   },
   {
+    id: "aureus-frc-1318",
+    title: "AUREUS — FRC Team 1318 Competition Robot",
+    date: "2026-04",
+    dateLabel: "April 2026",
+    tagline: "Contributed to the electrical assembly and integration of AUREUS, Team 1318's competition robot for the 2026 FIRST Robotics Competition season.",
+    thumbnail: "assets/images/aureus-frc-1318-thumb.jpg",
+    tags: ["FIRST Robotics", "Electrical Engineering", "Robot Wiring", "CAN Bus"],
+    page: "projects/aureus-frc-1318.html",
+    category: "engineering"
+  },
+  {
     id: "lecturelog",
     title: "AI Note-Taking Device",
     date: "2026-07",
