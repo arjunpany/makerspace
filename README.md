@@ -13,10 +13,16 @@ to Cloudflare Pages from this repo.
 - `data/projects.js` — single source of truth for project metadata (title, date, tags, thumbnail, link, category).
   Each project has a `category` of `"engineering"` or `"music"`, used to route it to the right page.
 - `assets/images/` — photos (compressed, committed to the repo)
-- `assets/videos/` — small clips (~20MB or less) can be committed directly; larger files should be
+- `assets/videos/` — clips under 25 MiB can be committed directly; larger files should be
   embedded from YouTube/Vimeo instead — see `assets/videos/README.md`
-- `assets/audio/` — beats/tracks for the Music page; small files (~20MB or less) can be committed
+- `assets/audio/` — beats/tracks for the Music page; files under 25 MiB can be committed
   directly — see `assets/audio/README.md`
+
+**Every committed file must be under 25 MiB.** This site deploys as a Cloudflare Worker with
+static assets, which hard-caps each individual file at 25 MiB — one oversized file fails the
+*entire* build, taking the whole live site down until it's fixed, not just breaking the page
+that references it. This is much stricter than GitHub's 100MB limit, so don't rely on that
+number — always check a media file's actual size before committing it.
 
 ## Adding a new project
 
@@ -40,4 +46,4 @@ This repo is connected to Cloudflare Pages:
 - Build command: *(none)*
 - Build output directory: `/`
 
-Every push to `main` triggers a new deployment automatically.
+Every push to `master` triggers a new deployment automatically.

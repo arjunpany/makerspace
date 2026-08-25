@@ -1,7 +1,11 @@
 # Audio
 
-**Small tracks (roughly under ~20MB) can be committed directly here.** Use a `<video>` tag
-(handles audio-only files fine too) in the project page:
+**Tracks under 25 MiB can be committed directly here.** This site deploys as a Cloudflare
+Worker with static assets, which hard-caps every individual file at 25 MiB — go over that and
+the *entire site* fails to build, not just that one file. GitHub's 100MB limit doesn't apply
+here; 25 MiB is the real ceiling. Check a file's size before committing it.
+
+Use a `<video>` tag (handles audio-only files fine too) in the project page:
 
 ```html
 <div class="media-block video">
@@ -14,6 +18,6 @@
 
 `.mp3`, `.wav`, or `.mp4` (audio-only or with a screen recording of the DAW) all work.
 
-**Anything larger** — GitHub blocks files over 100MB outright, and large binaries slow things
-down in git history well before that. For those, host the track externally (SoundCloud, YouTube,
-etc.) and embed a player the same way `assets/videos/README.md` describes for video.
+**Anything 25 MiB or larger** must be hosted externally (SoundCloud, YouTube, etc.) and embedded
+as a player the same way `assets/videos/README.md` describes for video — it cannot be committed
+to this repo at all.
