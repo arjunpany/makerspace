@@ -211,6 +211,17 @@ const PROJECTS = [
     tags: ["Hip-Hop", "Beat Making", "Sampling"],
     page: "projects/rod-wave-type-beat.html",
     category: "music"
+  },
+  {
+    id: "nle-choppa-type-beat",
+    title: "NLE Choppa Type Beat",
+    date: "2023-11",
+    dateLabel: "November 2023",
+    tagline: "A three-part beat moving from electronic, to dark and cinematic, to a late-night dreamy feel.",
+    thumbnail: "assets/images/nle-choppa-type-beat-thumb.jpg",
+    tags: ["Hip-Hop", "Beat Making", "Sampling"],
+    page: "projects/nle-choppa-type-beat.html",
+    category: "music"
   }
 ];
 
