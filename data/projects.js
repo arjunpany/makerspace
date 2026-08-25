@@ -277,6 +277,17 @@ const PROJECTS = [
     tags: ["Hip-Hop", "Beat Making"],
     page: "projects/rodeo-travis-scott-type-beat.html",
     category: "music"
+  },
+  {
+    id: "guitar-in-heaven-trap-beat",
+    title: "Guitar in Heaven - Trap Beat",
+    date: "2026-04",
+    dateLabel: "April 2026",
+    tagline: "A guitar sample flipped into a full trap beat.",
+    thumbnail: "assets/images/guitar-in-heaven-trap-beat-thumb.jpg",
+    tags: ["Trap", "Hip-Hop", "Beat Making", "Sampling"],
+    page: "projects/guitar-in-heaven-trap-beat.html",
+    category: "music"
   }
 ];
 
