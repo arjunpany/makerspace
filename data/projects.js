@@ -329,11 +329,6 @@ function projectsByDateDesc() {
   return [...PROJECTS].sort((a, b) => b.date.localeCompare(a.date));
 }
 
-// Sorted oldest-first for the timeline.
-function projectsByDateAsc() {
-  return [...PROJECTS].sort((a, b) => a.date.localeCompare(b.date));
-}
-
 // Newest-first, filtered to a single category ("engineering" or "music").
 function projectsByCategoryDesc(category) {
   return projectsByDateDesc().filter(p => p.category === category);

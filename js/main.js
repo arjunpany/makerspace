@@ -34,8 +34,11 @@ function renderProjectGrid(containerId, category) {
     : `<p class="empty-state">Nothing here yet — check back soon.</p>`;
 }
 
-function renderTimeline(containerId) {
+function renderTimeline(containerId, category) {
   const el = document.getElementById(containerId);
   if (!el) return;
-  el.innerHTML = projectsByDateAsc().map(timelineItemHTML).join("");
+  const projects = category ? projectsByCategoryDesc(category) : projectsByDateDesc();
+  el.innerHTML = projects.length
+    ? projects.map(timelineItemHTML).join("")
+    : `<p class="empty-state">Nothing here yet — check back soon.</p>`;
 }

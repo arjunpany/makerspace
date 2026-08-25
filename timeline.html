@@ -22,12 +22,20 @@
   <header class="hero">
     <div class="container">
       <h1>Project Timeline</h1>
-      <p>How my projects have progressed over time, oldest to newest.</p>
+      <p>How my projects have progressed over time, newest to oldest.</p>
     </div>
   </header>
 
   <main class="container">
-    <div class="timeline" id="timeline"></div>
+    <div class="section-heading">
+      <h2>Engineering</h2>
+    </div>
+    <div class="timeline" id="timeline-engineering"></div>
+
+    <div class="section-heading">
+      <h2>Music</h2>
+    </div>
+    <div class="timeline" id="timeline-music"></div>
   </main>
 
   <footer class="site-footer">
@@ -38,6 +46,9 @@
 
   <script src="data/projects.js"></script>
   <script src="js/main.js"></script>
-  <script>renderTimeline("timeline");</script>
+  <script>
+    renderTimeline("timeline-engineering", "engineering");
+    renderTimeline("timeline-music", "music");
+  </script>
 </body>
 </html>
