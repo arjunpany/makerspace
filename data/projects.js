@@ -222,6 +222,17 @@ const PROJECTS = [
     tags: ["Hip-Hop", "Beat Making", "Sampling"],
     page: "projects/nle-choppa-type-beat.html",
     category: "music"
+  },
+  {
+    id: "metro-boomin-type-beat",
+    title: "Metro Boomin Type Beat",
+    date: "2024-03",
+    dateLabel: "March 2024",
+    tagline: "A dark trap beat built with piano and dark synth, with layered trap drums on top.",
+    thumbnail: "assets/images/metro-boomin-type-beat-thumb.jpg",
+    tags: ["Trap", "Hip-Hop", "Beat Making"],
+    page: "projects/metro-boomin-type-beat.html",
+    category: "music"
   }
 ];
 
