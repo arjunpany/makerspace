@@ -213,6 +213,7 @@ img { max-width: 100%; display: block; }
   border: 1px solid var(--border);
 }
 .media-block img, .media-block iframe { width: 100%; display: block; border: 0; }
+.media-block img { max-height: 520px; object-fit: cover; }
 .media-block.video { aspect-ratio: 16 / 9; }
 
 .gallery {
