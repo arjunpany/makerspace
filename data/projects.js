@@ -64,7 +64,7 @@ const PROJECTS = [
     date: "2024-08",
     dateLabel: "August 2024",
     tagline: "Built a Raspberry Pi weather station from hardware originally intended for a night-vision project, turning an unsuccessful prototype into a functional device.",
-    thumbnail: "assets/images/raspberry-pi-weather-station-thumb.jpg",
+    thumbnail: "assets/images/raspberry-pi-weather-station-hero.jpg",
     tags: ["Raspberry Pi", "Python", "API Integration", "Hardware"],
     page: "projects/raspberry-pi-weather-station.html",
     category: "engineering"
