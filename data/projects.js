@@ -53,7 +53,7 @@ const PROJECTS = [
     date: "2025-08",
     dateLabel: "August 2025",
     tagline: "Built a mobile registration and vehicle onboarding flow using React Native, with API integration for KARR's vehicle reporting platform.",
-    thumbnail: "assets/images/karr-vehicle-registration-flow-thumb.jpg",
+    thumbnail: "assets/images/karr-vehicle-registration-flow-2.png",
     tags: ["React Native", "TypeScript", "API Integration", "Mobile Development"],
     page: "projects/karr-vehicle-registration-flow.html",
     category: "engineering"
