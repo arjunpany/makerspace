@@ -2,7 +2,7 @@ function projectCardHTML(p) {
   return `
     <article class="project-card">
       <a class="card-link" href="${p.page}">
-        <div class="thumb"><img src="${p.thumbnail}" alt="${p.title}" loading="lazy"></div>
+        <div class="thumb"><img src="${p.thumbnail}" alt="${p.title}" loading="lazy" onerror="this.remove()"></div>
         <div class="card-body">
           <div class="date">${p.dateLabel}</div>
           <h3>${p.title}</h3>
