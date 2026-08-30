@@ -119,7 +119,7 @@ const PROJECTS = [
     date: "2019-07",
     dateLabel: "July 2019",
     tagline: "Built a 4-wheel-drive robot car with onboard sensors and IR remote control at an Amazon-hosted STEM robotics camp.",
-    thumbnail: "assets/images/4wd-sensor-robot-car-thumb.jpg",
+    thumbnail: "assets/images/4wd-sensor-robot-car-hero.png",
     tags: ["Arduino", "Robotics", "Sensors", "STEM Camp"],
     page: "projects/4wd-sensor-robot-car.html",
     category: "engineering"
