@@ -141,7 +141,7 @@ const PROJECTS = [
     date: "2017-03",
     dateLabel: "March 2017",
     tagline: "Built a working foosball table from a cardboard box, wooden dowel rods, and color-coded clothespins standing in for players.",
-    thumbnail: "assets/images/diy-foosball-table-thumb.jpg",
+    thumbnail: "assets/images/diy-foosball-table-hero.jpeg",
     tags: ["Cardboard Engineering", "DIY", "Recycled Materials", "Woodworking"],
     page: "projects/diy-foosball-table.html",
     category: "engineering"
