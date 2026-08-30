@@ -42,3 +42,29 @@ function renderTimeline(containerId, category) {
     ? projects.map(timelineItemHTML).join("")
     : `<p class="empty-state">Nothing here yet — check back soon.</p>`;
 }
+
+// Adds a play-button overlay on top of any poster'd <video> so it reads as a
+// video (not a static photo) before playback starts.
+function initVideoPlayOverlays() {
+  document.querySelectorAll(".media-block.video").forEach(block => {
+    const video = block.querySelector("video");
+    if (!video) return;
+
+    const overlay = document.createElement("div");
+    overlay.className = "play-overlay";
+    overlay.setAttribute("aria-label", "Play video");
+    overlay.innerHTML = `
+      <span class="play-icon">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      </span>
+    `;
+    block.appendChild(overlay);
+
+    overlay.addEventListener("click", () => video.play());
+    video.addEventListener("play", () => { overlay.style.display = "none"; });
+    video.addEventListener("pause", () => { overlay.style.display = "flex"; });
+    video.addEventListener("ended", () => { overlay.style.display = "flex"; });
+  });
+}
+
+document.addEventListener("DOMContentLoaded", initVideoPlayOverlays);

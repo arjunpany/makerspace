@@ -207,6 +207,7 @@ img { max-width: 100%; display: block; }
 .project-hero .tagline { color: var(--text-muted); font-size: 1.1rem; max-width: 700px; }
 
 .media-block {
+  position: relative;
   margin: 32px 0;
   border-radius: 12px;
   overflow: hidden;
@@ -214,6 +215,31 @@ img { max-width: 100%; display: block; }
 }
 .media-block img, .media-block iframe { width: 100%; display: block; border: 0; }
 .media-block.video { aspect-ratio: 16 / 9; }
+.media-block.video video { width: 100%; height: 100%; display: block; object-fit: cover; }
+
+.play-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.play-overlay:hover { background: rgba(0, 0, 0, 0.3); }
+.play-overlay .play-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 4px;
+}
 
 .gallery {
   display: grid;
