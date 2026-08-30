@@ -130,7 +130,7 @@ const PROJECTS = [
     date: "2017-02",
     dateLabel: "February 2017",
     tagline: "Built custom spinning-top toys out of LEGO bricks, designed to spin like beyblades.",
-    thumbnail: "assets/images/lego-beyblades-thumb.jpg",
+    thumbnail: "assets/images/lego-beyblades-hero.png",
     tags: ["LEGO", "DIY Toys", "Mechanical Design"],
     page: "projects/lego-beyblades.html",
     category: "engineering"
