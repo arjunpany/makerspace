@@ -75,7 +75,7 @@ const PROJECTS = [
     date: "2024-08",
     dateLabel: "August 2024",
     tagline: "Built a data-driven career exploration app for low-income students, placing 85th and in the top 5% at Empower Hacks 2.0 among 1,800+ participants.",
-    thumbnail: "assets/images/careerfinder-thumb.jpg",
+    thumbnail: "assets/images/careerfinder-thumb.png",
     tags: ["Web Development", "Data", "Career Exploration", "Hackathon"],
     page: "projects/careerfinder.html",
     category: "engineering"
