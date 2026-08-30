@@ -103,6 +103,17 @@ const PROJECTS = [
     category: "engineering"
   },
   {
+    id: "diy-soccer-goal",
+    title: "DIY Soccer Goal",
+    date: "2018-04",
+    dateLabel: "April 2018",
+    tagline: "Built my own soccer goal out of PVC pipes and netting, calculating the pipe lengths needed before cutting and assembling it.",
+    thumbnail: "assets/images/diy-soccer-goal-hero.jpg",
+    tags: ["DIY", "PVC Construction", "Home Build"],
+    page: "projects/diy-soccer-goal.html",
+    category: "engineering"
+  },
+  {
     id: "4wd-sensor-robot-car",
     title: "4WD Sensor Robot Car",
     date: "2019-07",
