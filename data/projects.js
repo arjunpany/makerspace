@@ -16,7 +16,7 @@ const PROJECTS = [
   },
   {
     id: "aureus-frc-1318",
-    title: "AUREUS — FRC Team 1318 Competition Robot",
+    title: "AUREUS: FRC Team 1318 Competition Robot",
     date: "2026-04",
     dateLabel: "April 2026",
     tagline: "Contributed to the electrical assembly and integration of AUREUS, Team 1318's competition robot for the 2026 FIRST Robotics Competition season.",
@@ -38,7 +38,7 @@ const PROJECTS = [
   },
   {
     id: "riptide-frc-1318",
-    title: "Riptide — FRC Team 1318 Competition Robot",
+    title: "Riptide: FRC Team 1318 Competition Robot",
     date: "2025-04",
     dateLabel: "April 2025",
     tagline: "Joined Team 1318's electrical subteam as a rookie, learning FRC robot systems while the team developed Riptide for the 2025 REEFSCAPE season.",
