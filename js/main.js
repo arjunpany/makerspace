@@ -31,7 +31,7 @@ function renderProjectGrid(containerId, category) {
   const projects = category ? projectsByCategoryDesc(category) : projectsByDateDesc();
   el.innerHTML = projects.length
     ? projects.map(projectCardHTML).join("")
-    : `<p class="empty-state">Nothing here yet — check back soon.</p>`;
+    : `<p class="empty-state">Nothing here yet. Check back soon.</p>`;
 }
 
 function renderTimeline(containerId, category) {
@@ -40,7 +40,7 @@ function renderTimeline(containerId, category) {
   const projects = category ? projectsByCategoryDesc(category) : projectsByDateDesc();
   el.innerHTML = projects.length
     ? projects.map(timelineItemHTML).join("")
-    : `<p class="empty-state">Nothing here yet — check back soon.</p>`;
+    : `<p class="empty-state">Nothing here yet. Check back soon.</p>`;
 }
 
 // Adds a play-button overlay on top of any poster'd <video> so it reads as a

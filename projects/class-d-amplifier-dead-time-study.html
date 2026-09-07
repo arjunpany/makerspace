@@ -33,13 +33,13 @@
       <dt>Timeframe</dt><dd>August 2026</dd>
       <dt>Tools used</dt><dd>LTspice (circuit simulation, PWM modulation, Fourier/THD analysis)</dd>
       <dt>Category</dt><dd>Power Electronics, Circuit Simulation</dd>
-      <dt>Build type</dt><dd>Simulation only (LTspice) — not built IRL</dd>
+      <dt>Build type</dt><dd>Simulation only (LTspice), not built IRL</dd>
     </dl>
 
     <h2>The problem</h2>
     <p>
       Class-D amplifiers power almost every battery-driven audio device (phones, wireless
-      speakers, laptops) because they're far more power-efficient than older amplifier designs —
+      speakers, laptops) because they're far more power-efficient than older amplifier designs:
       they work by rapidly switching between two voltage rails rather than smoothly scaling
       voltage. But the two switches involved can never be on simultaneously, or they'd
       short-circuit the power supply. To prevent this, engineers insert a small forced pause
@@ -73,7 +73,7 @@
     <p>
       Hypothesized that THD would remain roughly flat for small dead-time values, then rise
       sharply past a threshold. Instead, THD decreased smoothly and monotonically as dead-time
-      increased across the full range (37.18% down to 36.92%) — no flat region, no sharp
+      increased across the full range (37.18% down to 36.92%), with no flat region and no sharp
       threshold. This suggests the ideal switch model used doesn't capture the real-world
       shoot-through risk the original hypothesis was based on.
     </p>
