@@ -20,7 +20,7 @@ const PROJECTS = [
     date: "2026-04",
     dateLabel: "April 2026",
     tagline: "Contributed to the electrical assembly and integration of AUREUS, Team 1318's competition robot for the 2026 FIRST Robotics Competition season.",
-    thumbnail: "assets/images/aureus-frc-1318-thumb.jpg",
+    thumbnail: "assets/images/aureus-frc-1318-hero.jpg",
     tags: ["FIRST Robotics", "Electrical Engineering", "Robot Wiring", "CAN Bus"],
     page: "projects/aureus-frc-1318.html",
     category: "engineering"
