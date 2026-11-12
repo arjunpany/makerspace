@@ -31,7 +31,7 @@ const PROJECTS = [
     date: "2026-07",
     dateLabel: "July 2026",
     tagline: "A press-to-record Raspberry Pi device that transcribes a lecture on-device and turns it into AI-structured study notes on its own touchscreen, all built end-to-end down to a custom 3D-printed case.",
-    thumbnail: "assets/images/lecturelog-thumb.jpg",
+    thumbnail: "assets/images/lecturelog-hero.jpg",
     tags: ["Raspberry Pi", "Python", "AI / Claude API", "Whisper"],
     page: "projects/lecturelog.html",
     category: "engineering"
