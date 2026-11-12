@@ -9,7 +9,7 @@ const PROJECTS = [
     date: "2026-08",
     dateLabel: "August 2026",
     tagline: "Simulating how a Class-D amplifier's switching safety gap affects audio distortion.",
-    thumbnail: "assets/images/class-d-amplifier-dead-time-study-thumb.jpg",
+    thumbnail: "assets/images/class-d-amplifier-dead-time-study-1.png",
     tags: ["LTspice", "Power Electronics", "Circuit Simulation", "PWM"],
     page: "projects/class-d-amplifier-dead-time-study.html",
     category: "engineering"
